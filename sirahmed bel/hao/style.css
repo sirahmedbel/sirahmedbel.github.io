@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00014b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('/assets/img/hao-logo.png') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px #ff000096;
+}
+
+.hero h1 {
+    font-size: 48px;
+    background-color: #f00;
+}
+
+.hero p {
+    font-size: 24px;
+    background-color: #f00;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #112061;
+}
+
+.features {
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.features .feature-item {
+    margin-bottom: 20px;
+}
+
+.about, .contact {
+    padding: 50px 20px;
+}
+
+.about h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff0000;
+    color: white;
+}

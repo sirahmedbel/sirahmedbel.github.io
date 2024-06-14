@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('/assets/img/icon.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: 0 0 20px #0000007c;
+}
+
+.hero h1 {
+    font-size: 48px;
+    background-color: #000;
+}
+
+.hero p {
+    font-size: 24px;
+    background-color: #000;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0f0f0f;
+}
+
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.features .feature-item {
+    margin-bottom: 20px;
+}
+
+.about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
